@@ -1,0 +1,79 @@
+body{
+    background-image: url(bgggc.jpg);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+    text-align: center;
+	color: #FFF;
+
+
+  
+}
+h1 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #FFF;
+	letter-spacing: 2px;
+	margin: 100px auto;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+.result-enter{
+	width: 25%;
+	margin: 0 auto;
+}
+input[type="text"], input[type="password"] {
+	width: 84%;
+	padding: 15px 10px 15px 50px;
+	font-size: 14px;
+	background: transparent;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	outline: none;
+	margin-bottom: 20px;
+	color: #FFF;
+}
+
+input[type="text"] {
+		background: url("email-iocn.png") no-repeat 13px 11px;
+		background-size: 25px;
+		color: #FFF;
+}
+
+input[type="submit"] {
+	font-size: 16px;
+	font-weight: 700;
+	padding: 15px 50px;
+	background-color: #173148;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	float: left;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #FFF;
+	color: #173148;
+}
+.down-bar{
+	margin: 150px 10px 20px;
+	color: #FFF;
+}
+::-webkit-input-placeholder {
+	color: #FFF;
+}
+
+::-moz-placeholder {
+	color: #FFF;
+}
